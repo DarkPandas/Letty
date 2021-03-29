@@ -46,7 +46,7 @@ public class ChatHandler {
      */
     public static void join(SocketChannel socketChannel) {
         //有人加入，分配userID
-        String userId = "用户" + ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
+        String userId = "" + ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
         //发送通知自己加入的信息
         send(socketChannel, "您 " + userId + " 已加入群聊");
         for (SocketChannel channel : USER_MAP.keySet()) {
