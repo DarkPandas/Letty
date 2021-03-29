@@ -1,4 +1,4 @@
-package com.codeagles.netty;
+package com.codeagles.nio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
