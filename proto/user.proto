@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.bfxy.netty.protobuf";
+option java_package = "com.netty.protobuf";
 option java_outer_classname = "UserModule";
 
 message User {
